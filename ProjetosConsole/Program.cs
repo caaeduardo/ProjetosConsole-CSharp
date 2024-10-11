@@ -30,6 +30,8 @@ namespace ProjetosConsole
         private static void menuListas()
 
         {
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Blue;
             Console.Clear();
             int op = 0;
             Console.WriteLine("############# MENU INICIAR ##############\nCadu 3.2 Version MOD | Caaeduardo      ");
@@ -38,9 +40,9 @@ namespace ProjetosConsole
             Console.WriteLine("2 - SEGUNDA LISTA DE ATIVIDADES");
             Console.WriteLine("3 - TERCEIRA LISTA DE ATIVIDADES");
             Console.WriteLine("4 - QUARTA LISTA DE ATIVIDADES");
-            Console.WriteLine("0 - Para Fechar o Shell");
+            Console.WriteLine("0 - Para Fechar o Shell\n");
 
-            Console.WriteLine("Numero da LISTA: ");
+            Console.Write("Numero da LISTA: ");
             op = int.Parse(Console.ReadLine());
 
             Console.WriteLine("-------------------------------------------------------------");
@@ -71,7 +73,7 @@ namespace ProjetosConsole
                     Console.WriteLine("8 - Oitava  atividade");
                     Console.WriteLine("9 - Nona  atividade");
                     Console.WriteLine("10 - La Décima  atividade");
-                    Console.WriteLine("Digite o numero da atividade: ");
+                    Console.WriteLine("Digite o numero da atividade: \n");
                     opLista1 = int.Parse(Console.ReadLine());
 
                     switch (opLista1)
@@ -144,6 +146,14 @@ namespace ProjetosConsole
                     Console.WriteLine("1 - Primeira atividade ");
                     Console.WriteLine("2 - Segunda atividade");
                     Console.WriteLine("3 - Terceira  atividade");
+                    Console.WriteLine("4 - Quarta  atividade");
+                    Console.WriteLine("5 - Quinta  atividade");
+                    Console.WriteLine("6 - Sexta  atividade");
+                    Console.WriteLine("7 - Sétima  atividade");
+                    Console.WriteLine("8 - Oitava  atividade");
+                    Console.WriteLine("9 - Nona  atividade");
+                    Console.WriteLine("10 - La Décima  atividade");
+                    Console.WriteLine("11 - La Décima Primeira atividade");
                     Console.WriteLine("Digite o numero da atividade: ");
                     opLista2 = int.Parse(Console.ReadLine());
 
@@ -164,7 +174,48 @@ namespace ProjetosConsole
                             Console.WriteLine("-------------------------------------------------------------");
                             lista2.Exe3();
                             break;
+                        case 4:
+                            Console.Clear();
+                            Console.WriteLine("-------------------------------------------------------------");
+                            lista2.Exe4();
+                            break;
+                        case 5:
+                            Console.Clear();
+                            Console.WriteLine("-------------------------------------------------------------");
+                            lista2.Exe5();
+                            break;
+                        case 6:
+                            Console.Clear();
+                            Console.WriteLine("-------------------------------------------------------------");
+                            lista2.Exe6();
+                            break;
+                        case 7:
+                            Console.Clear();
+                            Console.WriteLine("-------------------------------------------------------------");
+                            lista2.Exe7();
+                            break;
+                        case 8:
+                            Console.Clear();
+                            Console.WriteLine("-------------------------------------------------------------");
+                            lista2.Exe8();
+                            break;
+                        case 9:
+                            Console.Clear();
+                            Console.WriteLine("-------------------------------------------------------------");
+                            lista2.Exe9();
+                            break;
+                        case 10:
+                            Console.Clear();
+                            Console.WriteLine("-------------------------------------------------------------");
+                            lista2.Exe10();
+                            break;
+                        case 11:
+                            Console.Clear();
+                            Console.WriteLine("-------------------------------------------------------------");
+                            lista2.Exe11();
+                            break;
                         default:
+
                             Console.WriteLine("Tente outro item da lista");
                             break;
                     }
@@ -182,6 +233,9 @@ namespace ProjetosConsole
                     Console.WriteLine("1 - Primeira atividade ");
                     Console.WriteLine("2 - Segunda atividade");
                     Console.WriteLine("3 - Terceira  atividade");
+                    Console.WriteLine("4 - Quarta  atividade");
+                    Console.WriteLine("5 - Quinta  atividade");
+                    Console.WriteLine("6 - Sexta  atividade");
                     Console.WriteLine("Digite o numero da atividade: ");
                     opLista3 = int.Parse(Console.ReadLine());
 
@@ -201,6 +255,21 @@ namespace ProjetosConsole
                             Console.Clear();
                             Console.WriteLine("-------------------------------------------------------------");
                             lista3.Exe3();
+                            break;
+                        case 4:
+                            Console.Clear();
+                            Console.WriteLine("-------------------------------------------------------------");
+                            lista3.Exe4();
+                            break;
+                        case 5:
+                            Console.Clear();
+                            Console.WriteLine("-------------------------------------------------------------");
+                            lista3.Exe5();
+                            break;
+                        case 6:
+                            Console.Clear();
+                            Console.WriteLine("-------------------------------------------------------------");
+                            lista3.Exe6();
                             break;
                         default:
                             Console.WriteLine("Tente outro item da lista");

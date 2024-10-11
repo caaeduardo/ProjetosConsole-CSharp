@@ -5,3 +5,10 @@ C:\Users\ADM\source\repos\ProjetosConsole\ProjetosConsole\obj\Debug\ProjetosCons
 C:\Users\ADM\source\repos\ProjetosConsole\ProjetosConsole\obj\Debug\ProjetosConsole.csproj.CoreCompileInputs.cache
 C:\Users\ADM\source\repos\ProjetosConsole\ProjetosConsole\obj\Debug\ProjetosConsole.exe
 C:\Users\ADM\source\repos\ProjetosConsole\ProjetosConsole\obj\Debug\ProjetosConsole.pdb
+C:\Users\carlos.esilva107\Source\Repos\ProjetosConsole-CSharp\ProjetosConsole\bin\Debug\ProjetosConsole.exe.config
+C:\Users\carlos.esilva107\Source\Repos\ProjetosConsole-CSharp\ProjetosConsole\bin\Debug\ProjetosConsole.exe
+C:\Users\carlos.esilva107\Source\Repos\ProjetosConsole-CSharp\ProjetosConsole\bin\Debug\ProjetosConsole.pdb
+C:\Users\carlos.esilva107\Source\Repos\ProjetosConsole-CSharp\ProjetosConsole\obj\Debug\ProjetosConsole.csproj.AssemblyReference.cache
+C:\Users\carlos.esilva107\Source\Repos\ProjetosConsole-CSharp\ProjetosConsole\obj\Debug\ProjetosConsole.csproj.CoreCompileInputs.cache
+C:\Users\carlos.esilva107\Source\Repos\ProjetosConsole-CSharp\ProjetosConsole\obj\Debug\ProjetosConsole.exe
+C:\Users\carlos.esilva107\Source\Repos\ProjetosConsole-CSharp\ProjetosConsole\obj\Debug\ProjetosConsole.pdb
